@@ -1,9 +1,18 @@
+body{
+    background-color: #98fb98;
+    box-sizing: border-box;
+    margin:0;
+   
+    
+}
+
 #container{
     display: flex;
-    padding: 20px;
     background-color: #98fb98;
     justify-content: center;
     height: 100vh;
+    padding: 0 20px;
+    
     
 }
 .background{
@@ -14,7 +23,7 @@
     width: 50%;
     flex: 0 1 auto;
     align-self: center;
-    border: 20px solid #98fb98;
+    border: 1em solid #98fb98;
     
 }
 #bg1{
