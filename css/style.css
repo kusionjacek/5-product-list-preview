@@ -1,0 +1,56 @@
+#container{
+    display: flex;
+    padding: 20px;
+    background-color: #98fb98;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    flex: 0 1 auto;
+    align-self: center;
+    border: 20px solid #98fb98;
+    
+}
+#bg1{
+    background-image: url(../img/product-1.jpg)
+}
+#bg2{
+    background-image: url(../img/product-2.jpg)
+}
+#bg3{
+    background-image: url(../img/product-3.jpg)
+}
+#bg4{
+    background-image: url(../img/product-4.jpg)
+}
+
+.mask{
+    height: 100%;
+    background-color: rgba(255, 111, 0,0.5);
+    opacity:0;
+    transition: all 0.4s;
+    position: relative;
+    text-align: center;
+}
+
+.background:hover .mask{
+    opacity: 1;
+}
+
+.content, a{
+    position: absolute;
+    font-size: 1.5em;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top:0;
+    color: #fff;
+    margin: auto;
+    line-height: 200px;
+}
